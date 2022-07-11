@@ -3,7 +3,7 @@ AddEventHandler('notifications', function(color, title, message)
     SendNUIMessage({
         type = "custom",
         color = color,
-		title = title,
+	title = title,
         message = message,
     })
     
@@ -12,7 +12,7 @@ end)
 
 RegisterCommand("test_notify", function()
     TriggerEvent('notifications', "info", "Awesome title", "Awesome message")
-    TriggerEvent('notifications', "orange", "Awesome title", "Awesome message")
+    TriggerEvent('notifications', "red", "Awesome title", "Awesome message")
     TriggerEvent('notifications', "grey", "Awesome title", "Awesome message")
     TriggerEvent('notifications', "green", "Awesome title", "Awesome message")
 end, false)

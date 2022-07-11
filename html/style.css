@@ -8,7 +8,6 @@
 
 :root {
   --info: linear-gradient(90deg, #1B9BFC 0%, rgba(31, 109, 169, 0.47) 52.6%, rgba(32, 96, 145, 0) 98.44%);
-  --orange: linear-gradient(90deg, #1B9BFC 0%, rgba(31, 109, 169, 0.47) 52.6%, rgba(32, 96, 145, 0) 98.44%);
   --red: linear-gradient(90deg, #fc1b1b 0%, rgba(169, 52, 31, 0.47) 52.6%, rgba(145, 32, 32, 0) 98.44%);
   --grey: linear-gradient(90deg, #353535 0%, rgba(51, 51, 51, 0.47) 52.6%, rgba(109, 109, 109, 0)98.44%);
   --green: linear-gradient(90deg, #48ff00 0%, rgba(9, 204, 2, 0.47) 52.6%, rgba(0, 199, 43, 0)98.44%);
